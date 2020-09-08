@@ -76,7 +76,8 @@ function init() {
       }
     });
   }, xhr => {
-    let percentage = (xhr.loaded / xhr.total * 100).toFixed(0);
+    let total = xhr.lengthComputable ? xhr.total : parseInt(xhr.target.getResponseHeader('x-decompressed-content-length'), 10);
+    let percentage = (xhr.loaded / total * 100).toFixed(0);
     let span = document.querySelector('#loading span');
     span.innerHTML = 'Cargando ' + percentage + '%';
   }, error => {
