@@ -36,7 +36,7 @@ function init() {
   camera.position.set(1, 3, 5);
 
   controls = new OrbitControls(camera, renderer.domElement);
-  controls.maxPolarAngle = Math.PI / 2;
+  controls.maxPolarAngle = Math.PI / 2.1;
   controls.enableDamping = true;
   controls.dampingFactor = 0.12;
   controls.minDistance = 2;
