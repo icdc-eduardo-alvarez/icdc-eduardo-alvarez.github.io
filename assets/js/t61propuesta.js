@@ -1,7 +1,8 @@
 import * as THREE from '../../build/three.module.js';
 import { OrbitControls } from '../../jsm/controls/OrbitControls.js';
 import { GLTFLoader } from '../../jsm/loaders/GLTFLoader.js';
-import Stats from '../..//jsm/libs/stats.module.js';
+import Stats from '../../jsm/libs/stats.module.js';
+import { HDRCubeTextureLoader } from '../../jsm/loaders/HDRCubeTextureLoader.js';
 var scene;
 var renderer;
 var camera;
@@ -23,8 +24,16 @@ function init() {
   renderer.toneMapping = THREE.ReinhardToneMapping;
   renderer.outputEncoding = THREE.sRGBEncoding;
   renderer.shadowMap.enabled = true;
+  renderer.shadowMapSoft = true;
   renderer.shadowMap.type = THREE.PCFShadowMap;
+  renderer.shadowMapBias = 0.0039;
+  renderer.shadowMapDarkness = 0.5;
+  renderer.shadowMapWidth = 1024;
+  renderer.shadowMapHeight = 1024;
   document.body.appendChild(renderer.domElement);
+
+  var pmremGenerator = new THREE.PMREMGenerator(renderer);
+  pmremGenerator.compileCubemapShader();
 
   stats = new Stats();
   document.body.appendChild(stats.dom);
@@ -47,10 +56,28 @@ function init() {
     loadingScreen.addEventListener('transitionend', e => e.target.remove());
   });
 
-  var glassMaterial = new THREE.MeshPhongMaterial({
-    color: 0xffffff,
-    refractionRatio: 0.8
-  });
+  //var geo = new THREE.PlaneBufferGeometry(10, 10, 8, 8);
+  //var mat = new THREE.MeshPhongMaterial({ color: 0xbdbdbd, side: THREE.DoubleSide });
+  /* var plane = new THREE.Mesh(geo, mat);
+  plane.rotateX( - Math.PI / 2);
+  scene.add(plane) */
+
+
+
+  //ADD HDR
+  var target = null;
+  
+
+
+  /* var hdrCubeMap = new HDRCubeTextureLoader().setPath('./assets/img/')
+  .setDataType(THREE.UnsignedByteType)
+  .load('Ridgecrest_Road_Ref_GRIS.hdr', function(){
+    target = pmremGenerator.fromCubemap(hdrCubeMap);
+    hdrCubeMap.magFilter = THREE.LinearFilter;
+    hdrCubeMap.needsUpdate = true;
+  }); */
+
+  //target = pmremGenerator.fromScene(scene, 0.10);
 
   addLights();
 
@@ -69,7 +96,8 @@ function init() {
       if (node.isMesh) {
         node.castShadow = true;
         node.receiveShadow = true;
-        node.material.emissiveIntensity = 2
+        //node.material.emissiveIntensity = 2
+        //node.material.envMap = target;
         if (node.material.map) {
           node.material.map.anisotropy = 16;
         }
@@ -93,11 +121,8 @@ function init() {
 }
 
 function addLights() {
-  /* var hemiLight = new THREE.HemisphereLight(0xf5f5f5, 0xbdbdbd, 0.9);
-  scene.add(hemiLight); */
-
   var ambientLight = new THREE.AmbientLight(0xeeeeee);
-  scene.add(ambientLight);
+  //scene.add(ambientLight);
 
   spotlight = new THREE.SpotLight(0xf5f5f5, 1);
   spotlight.castShadow = true;
@@ -107,14 +132,36 @@ function addLights() {
 
   var directionalLight = new THREE.DirectionalLight(0xffffff, 3);
   directionalLight.position.set(0, 5, 0);
-  scene.add(directionalLight);
+  directionalLight.castShadow = true;
+  directionalLight.shadow.mapSize.width = 2048;
+  directionalLight.shadow.mapSize.height = 2048;
+  //scene.add(directionalLight);
 
   var directionalLightHelper = new THREE.DirectionalLightHelper(directionalLight, 1);
   //scene.add(directionalLightHelper);
 
-  var pointLight = new THREE.PointLight(0xffffff, 2, 100, 3);
-  pointLight.position.set(0, 0, 0);
+  var lightsIntensity = 0.1;
+
+  var pointLight = new THREE.PointLight(0xffffff, lightsIntensity, 100, 3);
+  pointLight.position.set(0, 4, -2);
   scene.add(pointLight);
+
+  var pointLightH = new THREE.PointLightHelper(pointLight, 1);
+  scene.add(pointLightH);
+
+  var pointLight2 = new THREE.PointLight(0xffffff, lightsIntensity, 100, 3);
+  pointLight2.position.set(-2, 4, 3);
+  scene.add(pointLight2);
+
+  var pointLightH2 = new THREE.PointLightHelper(pointLight2, 1);
+  scene.add(pointLightH2);
+
+  var pointLight3 = new THREE.PointLight(0xffffff, lightsIntensity, 100, 3);
+  pointLight3.position.set(2, 4, 3);
+  scene.add(pointLight3);
+
+  var pointLightH3 = new THREE.PointLightHelper(pointLight3, 1);
+  scene.add(pointLightH3);
 }
 
 function animate() {
