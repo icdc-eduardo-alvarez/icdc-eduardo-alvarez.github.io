@@ -1,0 +1,2 @@
+(this["webpackJsonpvc-3d-react"]=this["webpackJsonpvc-3d-react"]||[]).push([[3],{75:function(e,t,c){"use strict";c.r(t),c.d(t,"default",(function(){return n}));var s=c(8),a=c(1),i=(c(0),c(74));function n(e){var t=Object(i.a)("/T61_Chasis.glb").scene;return Object(a.jsx)("primitive",Object(s.a)(Object(s.a)({},e),{},{object:t,dispose:null}))}i.a.preload("/T61_Chasis.glb")}}]);
+//# sourceMappingURL=3.f5b8b10f.chunk.js.map
