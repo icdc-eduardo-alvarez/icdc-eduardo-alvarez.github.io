@@ -2,80 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eea3401c-a359-40de-a3e9-c4d4d2a7be29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/icdc-eduardo-alvarez.github.io.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/T61_Chasis.glb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/T61_Chasis_LP.glb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/amarok-highline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/caddy-cargo-van.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/caddy-pasajeros.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/crafter-cargo-van.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/crafter-pasajeros.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/transporter-pasajeros.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pruebahdri.hdr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.8f241915.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.8f241915.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/2.6c112592.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/2.6c112592.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/2.6c112592.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/3.a4b8342b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/3.a4b8342b.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/4.21dbb117.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/4.21dbb117.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.2e25a112.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.2e25a112.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/runtime-main.adb33126.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/runtime-main.adb33126.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/360.0c41d24d.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Bold.0e3d4713.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Bold.2399bbfc.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Bold.7c8a64a6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Bold.81677ee9.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Bold.96f623ef.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Light.14a90a27.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Light.b606c4d7.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Light.c3994911.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Light.caeb5105.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Light.def4f314.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Regular.0cbdc11b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Regular.7238a977.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Regular.74616be5.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Regular.bc1646d4.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWHeadWeb-Regular.cb8b660a.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Bold.3192a621.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Bold.3457a5b6.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Bold.6346253b.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Bold.97bb9bc9.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Bold.d5d1a635.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Light.25ddcbc6.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Light.67cb5481.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Light.7def18d5.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Light.c7a67e13.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Light.f1dfc4f2.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Regular.0cd5df9e.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Regular.1e873c0d.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Regular.7f0f0356.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Regular.aa854382.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-Regular.d370d5cf.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-RegularItalic.04370ffa.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-RegularItalic.5cc9bfb0.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-RegularItalic.7d534bde.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-RegularItalic.855c83d3.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/VWTextWeb-RegularItalic.e4638a4e.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/close.e6e228e8.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/menu.f8d3d1c2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/vc.2f302382.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venice.hdr" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,11 +23,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vc-3d" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/vc-3d" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -115,7 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612281263561</updated>
       <workItem from="1612281264995" duration="216000" />
-      <workItem from="1613149754989" duration="143000" />
+      <workItem from="1613149754989" duration="595000" />
     </task>
     <servers />
   </component>
