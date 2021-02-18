@@ -8,17 +8,20 @@
     <title>Model Viewer</title>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <style>
-        body{
+        body {
             overflow: hidden;
         }
-        model-viewer{
+
+        model-viewer {
             width: 100vw;
             height: 100vh;
         }
     </style>
 </head>
 <body>
-    <!-- Use it like any other HTML element -->
-    <model-viewer src="models/T6.1Chasis.glb" alt="T6.1 Chasis" auto-rotate camera-controls></model-viewer>
+<model-viewer src="models/T6.1Chasis.glb" camera-controls environment-image="wide_street_01_1k.hdr"
+              shadow-intensity="5.1" shadow-softness="0.5" camera-orbit="335.7deg 87.6deg 6.591m"
+              min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 90deg 6.591m">
+</model-viewer>
 </body>
 </html>

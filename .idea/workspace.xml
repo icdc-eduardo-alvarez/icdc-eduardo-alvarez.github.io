@@ -22,12 +22,12 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/vc-3d" />
     </key>
@@ -44,7 +44,8 @@
       <option name="presentableId" value="Default" />
       <updated>1612281263561</updated>
       <workItem from="1612281264995" duration="216000" />
-      <workItem from="1613149754989" duration="595000" />
+      <workItem from="1613149754989" duration="1647000" />
+      <workItem from="1613594183149" duration="3891000" />
     </task>
     <servers />
   </component>
