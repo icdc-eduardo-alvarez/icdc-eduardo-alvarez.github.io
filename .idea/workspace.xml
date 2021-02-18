@@ -4,6 +4,11 @@
     <list default="true" id="eea3401c-a359-40de-a3e9-c4d4d2a7be29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/T6.1Chasis.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/T6.1Chasis_LP.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venice_sunset_1k.hdr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wide_street_02_1k.hdr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wide_street_02_2k.hdr" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -45,7 +51,7 @@
       <updated>1612281263561</updated>
       <workItem from="1612281264995" duration="216000" />
       <workItem from="1613149754989" duration="1647000" />
-      <workItem from="1613594183149" duration="3891000" />
+      <workItem from="1613594183149" duration="5756000" />
     </task>
     <servers />
   </component>

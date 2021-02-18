@@ -1,0 +1,2 @@
+(this["webpackJsonpvc-3d-react"]=this["webpackJsonpvc-3d-react"]||[]).push([[3],{82:function(c,e,r){"use strict";r.r(e),r.d(e,"default",(function(){return n}));var t=r(1);r(0),r(60);function n(c){var e=c.model;return Object(t.jsx)("model-viewer",{src:e,"camera-controls":!0})}}}]);
+//# sourceMappingURL=3.159cf725.chunk.js.map
